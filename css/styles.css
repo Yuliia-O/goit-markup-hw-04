@@ -166,9 +166,9 @@ img {
 } */
 
 .nav-list-link {
-  display: block;
-  /* display: flex;
-  align-items: center; */
+  /* display: block; */
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -181,6 +181,12 @@ img {
 .nav-list-link:focus,
 .current {
   color: var(--accent-color);
+}
+
+.icon-envelope,
+.icon-smartphone {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* Hero */
