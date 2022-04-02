@@ -167,14 +167,8 @@ img {
 .contact-list-item:not(:last-child) {
   margin-right: 50px;
 }
-/* .nav-list-item,
-.contact-list-item {
-  display: flex;
-  align-items: center;
-} */
 
 .nav-list-link {
-  /* display: block; */
   display: flex;
   align-items: center;
   padding-top: 32px;
